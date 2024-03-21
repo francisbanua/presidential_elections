@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'Yasmen';
+    src: url('./Yasmen.ttf') format('truetype');
+}
+
+body {
+    background-color: #353535;
+}
+
+h1 {
+    font-size: 200px !important;
+    font-family: 'Yasmen';
+    color: white;
+}
+
+h2 {
+    font-size: 50px;
+    font-family: 'Yasmen';
+    color: white;
+}
+
+p {
+    color: white;
+}

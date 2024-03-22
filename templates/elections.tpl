@@ -4,10 +4,20 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Elections and the Electoral College</title>
+    <script src="mapdata2.js"></script>
+    <script src="mapdata2base.js"></script>
+    <script src="usmap.js"></script>
+
+    <script>
+        // Get the state_specific data from mapdata2.js
+        const stateSpecificData = mapdata.state_specific;
+
+        // Merge state_specific data into mapdata2base.js
+        Object.assign(simplemaps_usmap_mapdata.state_specific, stateSpecificData);
+    </script>
 </head>
 <body>
     <h1>Elections and the Electoral College</h1>
-
     <h2>The Electoral College</h2>
     <p>
         The Electoral College is a body of electors established by the United
@@ -48,12 +58,16 @@
             <option value="12">2020</option>
         </select>
 
-        <button type="submit"></button>
+        <button type="submit">Confirm</button>
     </form>
-    <h1><?=$v?></h1>
 
-    <!--
     <table>
+        <tr>
+            <th>State</th>
+            <th>Candidate</th>
+            <th>Party</th>
+            <th>Votes</th>
+        </tr>
             <?php foreach ($result as $r):?>
             <tr>
                 <td><?=$r['State']?></td>
@@ -63,27 +77,24 @@
             </tr>
             <?php endforeach;?>
     </table>
-    -->
+
     <table>
-        <?php if (!empty($result)): ?>
         <tr>
-            <?php foreach (array_keys($result[0]) as $header): ?>
-            <th><?= htmlspecialchars($header) ?></th>
-            <?php endforeach; ?>
+            <th>Candidate</th>
+            <th>Party</th>
+            <th>Votes</th>
         </tr>
-        <?php foreach ($result as $r): ?>
+        <?php foreach ($result1 as $r):?>
         <tr>
-            <?php foreach ($r as $cell): ?>
-            <td><?= htmlspecialchars($cell) ?></td>
-            <?php endforeach; ?>
+            <td><?=$r['Candidate']?></td>
+            <td><?=$r['Party']?></td>
+            <td><?=$r['Votes']?></td>
         </tr>
-        <?php endforeach; ?>
-        <?php else: ?>
-        <tr>
-            <td colspan="3">No results found.</td>
-        </tr>
-        <?php endif; ?>
+        <?php endforeach;?>
     </table>
 
+    <div style="max-width: 700px; clip-path: polygon(0% 15%, 0 0, 15% 0%, 85% 0%, 100% 0, 100% 15%, 100% 94%, 60% 94%, 60% 100%, 15% 100%, 0 100%, 0% 85%)">
+        <div id="map"></div>
+    </div>
 </body>
 </html>

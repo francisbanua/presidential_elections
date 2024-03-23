@@ -4,26 +4,59 @@
     <title>Home</title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
-    <!--
-      Need a visual blank slate?
-      Remove all code in `styles.css`!
-    -->
-    <link rel="stylesheet" href="style.css" />
-    <script src="mapdata.js"></script>
-    <script src="usmap.js"></script>
+
+    <style>
+        body {
+            background-image: url("img/background.jpg");
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+            background-position: center;
+        }
+        h1 {
+            color: #780000;
+            font-size: 110px;
+            text-align: center;
+
+        }
+        .container {
+            display: flex;
+            justify-content: center;
+        }
+
+        ul {
+            display: flex;
+            list-style: none;
+            position: fixed;
+            top: 10px;
+        }
+
+        li {
+            margin: 0 50px 0 50px;
+        }
+
+        a {
+            color: black;
+            font-size: 20px;
+            text-decoration: none;
+        }
+
+    </style>
 </head>
 <body>
-<p style="text-align: center">Banua, Muca, Sinisterra</p>
-<h1 style="text-align: center">AMERICAN</h1>
-<h2 style="text-align: center">POLITICS AND VOTING SYSTEM</h2>
-
-<a href="info.php">history n geog</a>
-<a href="parties.php">parties</a>
-<a href="elections.php">elections</a>
-
-<div style="max-width: 700px; clip-path: polygon(0% 15%, 0 0, 15% 0%, 85% 0%, 100% 0, 100% 15%, 100% 94%, 60% 94%, 60% 100%, 15% 100%, 0 100%, 0% 85%)">
-    <div id="map"></div>
+<div class="container">
+    <ul>
+        <li><a href="index.php" style="text-decoration: underline">Home</a></li>
+        <li><a href="history.php">History</a></li>
+        <li><a href="parties.php">Parties</a></li>
+        <li><a href="elections.php">Elections</a></li>
+    </ul>
 </div>
-
+    <h1 style="margin: 110px 0 -100px 0">
+        AMERICAN
+    </h1>
+    <h1>
+        POLITICS AND VOTING SYSTEM
+    </h1>
 </body>
 </html>

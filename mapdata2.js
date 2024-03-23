@@ -2,8 +2,8 @@ var mapdata = {
     "state_specific": {
         "AL": {
             "name": "ALABAMA",
-            "image_url": "https:\/\/simplemaps.com\/static\/img\/stripes\/blue.svg",
-            "description": "Voted DEMOCRAT"
+            "image_url": "https:\/\/simplemaps.com\/static\/img\/stripes\/red.svg",
+            "description": "Voted REPUBLICAN"
         },
         "AK": {
             "name": "ALASKA",
@@ -17,23 +17,23 @@ var mapdata = {
         },
         "AR": {
             "name": "ARKANSAS",
-            "image_url": "https:\/\/simplemaps.com\/static\/img\/stripes\/blue.svg",
-            "description": "Voted DEMOCRAT"
+            "image_url": "https:\/\/simplemaps.com\/static\/img\/stripes\/red.svg",
+            "description": "Voted REPUBLICAN"
         },
         "CA": {
             "name": "CALIFORNIA",
-            "image_url": "https:\/\/simplemaps.com\/static\/img\/stripes\/red.svg",
-            "description": "Voted REPUBLICAN"
+            "image_url": "https:\/\/simplemaps.com\/static\/img\/stripes\/blue.svg",
+            "description": "Voted DEMOCRAT"
         },
         "CO": {
             "name": "COLORADO",
-            "image_url": "https:\/\/simplemaps.com\/static\/img\/stripes\/red.svg",
-            "description": "Voted REPUBLICAN"
+            "image_url": "https:\/\/simplemaps.com\/static\/img\/stripes\/blue.svg",
+            "description": "Voted DEMOCRAT"
         },
         "CT": {
             "name": "CONNECTICUT",
-            "image_url": "https:\/\/simplemaps.com\/static\/img\/stripes\/red.svg",
-            "description": "Voted REPUBLICAN"
+            "image_url": "https:\/\/simplemaps.com\/static\/img\/stripes\/blue.svg",
+            "description": "Voted DEMOCRAT"
         },
         "DE": {
             "name": "DELAWARE",
@@ -52,8 +52,8 @@ var mapdata = {
         },
         "GA": {
             "name": "GEORGIA",
-            "image_url": "https:\/\/simplemaps.com\/static\/img\/stripes\/blue.svg",
-            "description": "Voted DEMOCRAT"
+            "image_url": "https:\/\/simplemaps.com\/static\/img\/stripes\/red.svg",
+            "description": "Voted REPUBLICAN"
         },
         "HI": {
             "name": "HAWAII",
@@ -67,8 +67,8 @@ var mapdata = {
         },
         "IL": {
             "name": "ILLINOIS",
-            "image_url": "https:\/\/simplemaps.com\/static\/img\/stripes\/red.svg",
-            "description": "Voted REPUBLICAN"
+            "image_url": "https:\/\/simplemaps.com\/static\/img\/stripes\/blue.svg",
+            "description": "Voted DEMOCRAT"
         },
         "IN": {
             "name": "INDIANA",
@@ -77,8 +77,8 @@ var mapdata = {
         },
         "IA": {
             "name": "IOWA",
-            "image_url": "https:\/\/simplemaps.com\/static\/img\/stripes\/red.svg",
-            "description": "Voted REPUBLICAN"
+            "image_url": "https:\/\/simplemaps.com\/static\/img\/stripes\/blue.svg",
+            "description": "Voted DEMOCRAT"
         },
         "KS": {
             "name": "KANSAS",
@@ -87,18 +87,18 @@ var mapdata = {
         },
         "KY": {
             "name": "KENTUCKY",
-            "image_url": "https:\/\/simplemaps.com\/static\/img\/stripes\/blue.svg",
-            "description": "Voted DEMOCRAT"
+            "image_url": "https:\/\/simplemaps.com\/static\/img\/stripes\/red.svg",
+            "description": "Voted REPUBLICAN"
         },
         "LA": {
             "name": "LOUISIANA",
-            "image_url": "https:\/\/simplemaps.com\/static\/img\/stripes\/blue.svg",
-            "description": "Voted DEMOCRAT"
+            "image_url": "https:\/\/simplemaps.com\/static\/img\/stripes\/red.svg",
+            "description": "Voted REPUBLICAN"
         },
         "ME": {
             "name": "MAINE",
-            "image_url": "https:\/\/simplemaps.com\/static\/img\/stripes\/red.svg",
-            "description": "Voted REPUBLICAN"
+            "image_url": "https:\/\/simplemaps.com\/static\/img\/stripes\/blue.svg",
+            "description": "Voted DEMOCRAT"
         },
         "MD": {
             "name": "MARYLAND",
@@ -112,23 +112,23 @@ var mapdata = {
         },
         "MI": {
             "name": "MICHIGAN",
-            "image_url": "https:\/\/simplemaps.com\/static\/img\/stripes\/red.svg",
-            "description": "Voted REPUBLICAN"
+            "image_url": "https:\/\/simplemaps.com\/static\/img\/stripes\/blue.svg",
+            "description": "Voted DEMOCRAT"
         },
         "MN": {
             "name": "MINNESOTA",
-            "image_url": "https:\/\/simplemaps.com\/static\/img\/stripes\/blue.svg",
-            "description": "Voted DEMOCRAT"
+            "image_url": "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/f\/f3\/Green.PNG",
+            "description": "Voted DEMOCRATIC-FARMER-LABOR"
         },
         "MS": {
             "name": "MISSISSIPPI",
-            "image_url": "https:\/\/simplemaps.com\/static\/img\/stripes\/blue.svg",
-            "description": "Voted DEMOCRAT"
+            "image_url": "https:\/\/simplemaps.com\/static\/img\/stripes\/red.svg",
+            "description": "Voted REPUBLICAN"
         },
         "MO": {
             "name": "MISSOURI",
-            "image_url": "https:\/\/simplemaps.com\/static\/img\/stripes\/blue.svg",
-            "description": "Voted DEMOCRAT"
+            "image_url": "https:\/\/simplemaps.com\/static\/img\/stripes\/red.svg",
+            "description": "Voted REPUBLICAN"
         },
         "MT": {
             "name": "MONTANA",
@@ -142,23 +142,23 @@ var mapdata = {
         },
         "NV": {
             "name": "NEVADA",
-            "image_url": "https:\/\/simplemaps.com\/static\/img\/stripes\/red.svg",
-            "description": "Voted REPUBLICAN"
+            "image_url": "https:\/\/simplemaps.com\/static\/img\/stripes\/blue.svg",
+            "description": "Voted DEMOCRAT"
         },
         "NH": {
             "name": "NEW HAMPSHIRE",
-            "image_url": "https:\/\/simplemaps.com\/static\/img\/stripes\/red.svg",
-            "description": "Voted REPUBLICAN"
+            "image_url": "https:\/\/simplemaps.com\/static\/img\/stripes\/blue.svg",
+            "description": "Voted DEMOCRAT"
         },
         "NJ": {
             "name": "NEW JERSEY",
-            "image_url": "https:\/\/simplemaps.com\/static\/img\/stripes\/red.svg",
-            "description": "Voted REPUBLICAN"
+            "image_url": "https:\/\/simplemaps.com\/static\/img\/stripes\/blue.svg",
+            "description": "Voted DEMOCRAT"
         },
         "NM": {
             "name": "NEW MEXICO",
-            "image_url": "https:\/\/simplemaps.com\/static\/img\/stripes\/red.svg",
-            "description": "Voted REPUBLICAN"
+            "image_url": "https:\/\/simplemaps.com\/static\/img\/stripes\/blue.svg",
+            "description": "Voted DEMOCRAT"
         },
         "NY": {
             "name": "NEW YORK",
@@ -167,8 +167,8 @@ var mapdata = {
         },
         "NC": {
             "name": "NORTH CAROLINA",
-            "image_url": "https:\/\/simplemaps.com\/static\/img\/stripes\/blue.svg",
-            "description": "Voted DEMOCRAT"
+            "image_url": "https:\/\/simplemaps.com\/static\/img\/stripes\/red.svg",
+            "description": "Voted REPUBLICAN"
         },
         "ND": {
             "name": "NORTH DAKOTA",
@@ -187,8 +187,8 @@ var mapdata = {
         },
         "OR": {
             "name": "OREGON",
-            "image_url": "https:\/\/simplemaps.com\/static\/img\/stripes\/red.svg",
-            "description": "Voted REPUBLICAN"
+            "image_url": "https:\/\/simplemaps.com\/static\/img\/stripes\/blue.svg",
+            "description": "Voted DEMOCRAT"
         },
         "PA": {
             "name": "PENNSYLVANIA",
@@ -202,8 +202,8 @@ var mapdata = {
         },
         "SC": {
             "name": "SOUTH CAROLINA",
-            "image_url": "https:\/\/simplemaps.com\/static\/img\/stripes\/blue.svg",
-            "description": "Voted DEMOCRAT"
+            "image_url": "https:\/\/simplemaps.com\/static\/img\/stripes\/red.svg",
+            "description": "Voted REPUBLICAN"
         },
         "SD": {
             "name": "SOUTH DAKOTA",
@@ -212,13 +212,13 @@ var mapdata = {
         },
         "TN": {
             "name": "TENNESSEE",
-            "image_url": "https:\/\/simplemaps.com\/static\/img\/stripes\/blue.svg",
-            "description": "Voted DEMOCRAT"
+            "image_url": "https:\/\/simplemaps.com\/static\/img\/stripes\/red.svg",
+            "description": "Voted REPUBLICAN"
         },
         "TX": {
             "name": "TEXAS",
-            "image_url": "https:\/\/simplemaps.com\/static\/img\/stripes\/blue.svg",
-            "description": "Voted DEMOCRAT"
+            "image_url": "https:\/\/simplemaps.com\/static\/img\/stripes\/red.svg",
+            "description": "Voted REPUBLICAN"
         },
         "UT": {
             "name": "UTAH",
@@ -227,23 +227,23 @@ var mapdata = {
         },
         "VT": {
             "name": "VERMONT",
-            "image_url": "https:\/\/simplemaps.com\/static\/img\/stripes\/red.svg",
-            "description": "Voted REPUBLICAN"
+            "image_url": "https:\/\/simplemaps.com\/static\/img\/stripes\/blue.svg",
+            "description": "Voted DEMOCRAT"
         },
         "VA": {
             "name": "VIRGINIA",
-            "image_url": "https:\/\/simplemaps.com\/static\/img\/stripes\/red.svg",
-            "description": "Voted REPUBLICAN"
+            "image_url": "https:\/\/simplemaps.com\/static\/img\/stripes\/blue.svg",
+            "description": "Voted DEMOCRAT"
         },
         "WA": {
             "name": "WASHINGTON",
-            "image_url": "https:\/\/simplemaps.com\/static\/img\/stripes\/red.svg",
-            "description": "Voted REPUBLICAN"
+            "image_url": "https:\/\/simplemaps.com\/static\/img\/stripes\/blue.svg",
+            "description": "Voted DEMOCRAT"
         },
         "WV": {
             "name": "WEST VIRGINIA",
-            "image_url": "https:\/\/simplemaps.com\/static\/img\/stripes\/blue.svg",
-            "description": "Voted DEMOCRAT"
+            "image_url": "https:\/\/simplemaps.com\/static\/img\/stripes\/red.svg",
+            "description": "Voted REPUBLICAN"
         },
         "WI": {
             "name": "WISCONSIN",

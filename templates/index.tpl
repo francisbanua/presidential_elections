@@ -29,6 +29,8 @@
             list-style: none;
             position: fixed;
             top: 10px;
+            left: 50%;
+            transform: translateX(-50%);
         }
 
         li {
@@ -44,19 +46,20 @@
     </style>
 </head>
 <body>
-<div class="container">
-    <ul>
-        <li><a href="index.php" style="text-decoration: underline">Home</a></li>
-        <li><a href="history.php">History</a></li>
-        <li><a href="parties.php">Parties</a></li>
-        <li><a href="elections.php">Elections</a></li>
-    </ul>
-</div>
     <h1 style="margin: 110px 0 -100px 0">
         AMERICAN
     </h1>
     <h1>
         POLITICS AND VOTING SYSTEM
     </h1>
+
+    <div class="container">
+        <ul>
+            <li><a href="index.php" style="text-decoration: underline">Home</a></li>
+            <li><a href="history.php">History</a></li>
+            <li><a href="parties.php">Parties</a></li>
+            <li><a href="elections.php">Elections</a></li>
+        </ul>
+    </div>
 </body>
 </html>

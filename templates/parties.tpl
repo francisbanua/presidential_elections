@@ -28,6 +28,8 @@
             list-style: none;
             position: fixed;
             top: 10px;
+            left: 50%;
+            transform: translateX(-50%);
         }
         li {
             margin: 0 50px 0 50px;
@@ -70,14 +72,7 @@
     </style>
 </head>
 <body>
-<div class="container">
-    <ul>
-        <li><a href="index.php">Home</a></li>
-        <li><a href="history.php" >History</a></li>
-        <li><a href="parties.php" style="text-decoration: underline">Parties</a></li>
-        <li><a href="elections.php">Elections</a></li>
-    </ul>
-</div>
+
 
 <div class="left">
     <h2>Democratic Party</h2>
@@ -108,6 +103,13 @@
     </p>
 </div>
 
-
+<div class="container">
+    <ul>
+        <li><a href="index.php">Home</a></li>
+        <li><a href="history.php" >History</a></li>
+        <li><a href="parties.php" style="text-decoration: underline">Parties</a></li>
+        <li><a href="elections.php">Elections</a></li>
+    </ul>
+</div>
 </body>
 </html>

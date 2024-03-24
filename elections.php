@@ -26,10 +26,10 @@ $mapdata_array = json_decode(preg_replace('/.+?=\s*(\{.+\})\s*;/s', '$1', $mapda
 foreach ($result as $r) {
     // Determine image_url and description based on the party
     $image_url = "https://upload.wikimedia.org/wikipedia/commons/f/f3/Green.PNG";
-    $description = "Voted " . $r['Party'];
-    if ($r['Party'] === 'REPUBLICAN') {
+    $description = $r['Percentage'] . "% voted " . $r['Candidate'] . " (" . $r['Party'] . ")";
+    if (strpos($r['Party'], 'REPUB') !== false) {
         $image_url = "https://simplemaps.com/static/img/stripes/red.svg";
-    } elseif ($r['Party'] === 'DEMOCRAT') {
+    } elseif (strpos($r['Party'], 'DEMOC') !== false) {
         $image_url = "https://simplemaps.com/static/img/stripes/blue.svg";
     }
 
@@ -50,5 +50,4 @@ file_put_contents($mapdata_file, $updated_mapdata_content);
 echo $template->render('elections', [
     'result' => $result,
     'result1' => $result1
-
 ]);

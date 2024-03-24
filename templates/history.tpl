@@ -27,6 +27,8 @@
             list-style: none;
             position: fixed;
             top: 10px;
+            left: 50%;
+            transform: translateX(-50%);
         }
         li {
             margin: 0 50px 0 50px;
@@ -65,14 +67,7 @@
     </style>
 </head>
 <body>
-<div class="container">
-    <ul>
-        <li><a href="index.php">Home</a></li>
-        <li><a href="history.php" style="text-decoration: underline">History</a></li>
-        <li><a href="parties.php">Parties</a></li>
-        <li><a href="elections.php">Elections</a></li>
-    </ul>
-</div>
+
 
 <div class="left">
     <p>
@@ -116,5 +111,13 @@
     </table>
 </div>
 
+<div class="container">
+    <ul>
+        <li><a href="index.php">Home</a></li>
+        <li><a href="history.php" style="text-decoration: underline">History</a></li>
+        <li><a href="parties.php">Parties</a></li>
+        <li><a href="elections.php">Elections</a></li>
+    </ul>
+</div>
 </body>
 </html>

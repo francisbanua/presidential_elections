@@ -32,12 +32,15 @@
         .container {
             display: flex;
             justify-content: center;
+
         }
         ul {
             display: flex;
             list-style: none;
             position: fixed;
             top: 10px;
+            left: 50%;
+            transform: translateX(-50%);
         }
         li {
             margin: 0 50px 0 50px;
@@ -66,11 +69,6 @@
             top: 100px;
             right: 100px;
             width: 40%;
-        }
-
-        td {
-            font-size: 20px;
-            padding-bottom: 50px;
         }
 
         select {
@@ -103,23 +101,26 @@
 
         .iMap {
             position: absolute;
-            top: 90%;
+            top: 100%;
             left: 50%;
             transform: translateX(-50%);
             width: 100%;
-            text-align: center;
         }
+        .podium {
+            position: absolute;
+            top: 700px;
+            width: 100%;
+        }
+        table {
+            width: 100%;
+            text-align: left;
+            font-size: 20px;
+        }
+
     </style>
 </head>
 <body>
-<div class="container">
-    <ul>
-        <li><a href="index.php">Home</a></li>
-        <li><a href="history.php">History</a></li>
-        <li><a href="parties.php">Parties</a></li>
-        <li><a href="elections.php" style="text-decoration: underline">Elections</a></li>
-    </ul>
-</div>
+
 
 <div class="left">
     <h2>The Electoral College</h2>
@@ -140,6 +141,9 @@
         secure a majority of electoral votes. This has happened in five
         presidential elections, most recently in 2016
     </p>
+    <div class="iMap" style="max-width: 700px; clip-path: polygon(0% 15%, 0 0, 15% 0%, 85% 0%, 100% 0, 100% 15%, 100% 94%, 60% 94%, 60% 100%, 15% 100%, 0 100%, 0% 85%)">
+        <div id="map"></div>
+    </div>
 </div>
 
 <div class="right">
@@ -154,27 +158,74 @@
         <h1 style="color: #780000">Choose a year</h1>
         <form action="elections.php" method="post">
             <select name="id">
-                <option value="1">1976</option>
-                <option value="2">1980</option>
-                <option value="3">1984</option>
-                <option value="4">1988</option>
-                <option value="5">1992</option>
-                <option value="6">1996</option>
-                <option value="7">2000</option>
-                <option value="8">2004</option>
-                <option value="9">2008</option>
-                <option value="10">2012</option>
-                <option value="11">2016</option>
-                <option value="12">2020</option>
+                <option value="1" <?php if(isset($_POST['id']) && $_POST['id'] == '1') echo 'selected'; ?>>1976</option>
+                <option value="2" <?php if(isset($_POST['id']) && $_POST['id'] == '2') echo 'selected'; ?>>1980</option>
+                <option value="3" <?php if(isset($_POST['id']) && $_POST['id'] == '3') echo 'selected'; ?>>1984</option>
+                <option value="4" <?php if(isset($_POST['id']) && $_POST['id'] == '4') echo 'selected'; ?>>1988</option>
+                <option value="5" <?php if(isset($_POST['id']) && $_POST['id'] == '5') echo 'selected'; ?>>1992</option>
+                <option value="6" <?php if(isset($_POST['id']) && $_POST['id'] == '6') echo 'selected'; ?>>1996</option>
+                <option value="7" <?php if(isset($_POST['id']) && $_POST['id'] == '7') echo 'selected'; ?>>2000</option>
+                <option value="8" <?php if(isset($_POST['id']) && $_POST['id'] == '8') echo 'selected'; ?>>2004</option>
+                <option value="9" <?php if(isset($_POST['id']) && $_POST['id'] == '9') echo 'selected'; ?>>2008</option>
+                <option value="10" <?php if(isset($_POST['id']) && $_POST['id'] == '10') echo 'selected'; ?>>2012</option>
+                <option value="11" <?php if(isset($_POST['id']) && $_POST['id'] == '11') echo 'selected'; ?>>2016</option>
+                <option value="12" <?php if(isset($_POST['id']) && $_POST['id'] == '12') echo 'selected'; ?>>2020</option>
             </select>
 
             <button type="submit">Confirm</button>
         </form>
     </div>
+
+    <?php if (!is_null($result1) && !empty($result1)): ?>
+    <div class="podium">
+        <h2>Top 3 candidates</h2>
+        <table>
+            <tr>
+                <th>Candidate</th>
+                <th>Party</th>
+                <th>Votes</th>
+            </tr>
+            <?php foreach ($result1 as $r): ?>
+            <tr>
+                <td><?= $r['Candidate'] ?></td>
+                <td><?= $r['Party'] ?></td>
+                <td><?= $r['Votes'] ?></td>
+            </tr>
+            <?php endforeach; ?>
+        </table>
+    </div>
+    <?php endif; ?>
+
+
+<!--
+<div class="left2">
+    <table>
+        <tr>
+            <th>State</th>
+            <th>Candidate</th>
+            <th>Party</th>
+            <th>Votes</th>
+        </tr>
+        <?php foreach ($result as $r):?>
+        <tr>
+            <td><?=$r['State']?></td>
+            <td><?=$r['Candidate']?></td>
+            <td><?=$r['Party']?></td>
+            <td><?=$r['Votes']?></td>
+        </tr>
+        <?php endforeach;?>
+    </table>
+</div>
+-->
+
+<div class="container">
+    <ul>
+        <li><a href="index.php">Home</a></li>
+        <li><a href="history.php">History</a></li>
+        <li><a href="parties.php">Parties</a></li>
+        <li><a href="elections.php" style="text-decoration: underline">Elections</a></li>
+    </ul>
 </div>
 
-<div class="iMap" style="max-width: 700px; clip-path: polygon(0% 15%, 0 0, 15% 0%, 85% 0%, 100% 0, 100% 15%, 100% 94%, 60% 94%, 60% 100%, 15% 100%, 0 100%, 0% 85%)">
-    <div id="map"></div>
-</div>
 </body>
 </html>

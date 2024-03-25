@@ -42,10 +42,31 @@
             font-size: 20px;
             text-decoration: none;
         }
-
+        a:hover {
+            transition: 0.2s;
+            opacity: 50%;
+        }
+        .vertical {
+            position: absolute;
+            top: 0;
+            right: 25px;
+            text-align: right;
+            font-weight: normal;
+            line-height: 1.5;
+        }
     </style>
 </head>
 <body>
+<audio autoplay loop>
+    <source src="msc/enrique%20iglesias%20-%20subeme%20la%20radio%20(slowed%20%20reverb).mp3" type="audio/mpeg">
+</audio>
+    <h3 class="vertical">
+        Banua
+        <br>
+        Muca
+        <br>
+        Sinisterra
+    </h3>
     <h1 style="margin: 110px 0 -100px 0">
         AMERICAN
     </h1>

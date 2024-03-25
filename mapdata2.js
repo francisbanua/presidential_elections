@@ -2,258 +2,258 @@ var mapdata = {
     "state_specific": {
         "AL": {
             "name": "ALABAMA",
-            "image_url": "https:\/\/simplemaps.com\/static\/img\/stripes\/blue.svg",
-            "description": "55.7273% voted CARTER, JIMMY (DEMOCRAT)"
+            "image_url": "https:\/\/simplemaps.com\/static\/img\/stripes\/red.svg",
+            "description": "56.4838% voted BUSH, GEORGE W. (REPUBLICAN)"
         },
         "AK": {
             "name": "ALASKA",
             "image_url": "https:\/\/simplemaps.com\/static\/img\/stripes\/red.svg",
-            "description": "57.9046% voted FORD, GERALD (REPUBLICAN)"
+            "description": "58.6210% voted BUSH, GEORGE W. (REPUBLICAN)"
         },
         "AZ": {
             "name": "ARIZONA",
             "image_url": "https:\/\/simplemaps.com\/static\/img\/stripes\/red.svg",
-            "description": "56.3661% voted FORD, GERALD (REPUBLICAN)"
+            "description": "51.0211% voted BUSH, GEORGE W. (REPUBLICAN)"
         },
         "AR": {
             "name": "ARKANSAS",
-            "image_url": "https:\/\/simplemaps.com\/static\/img\/stripes\/blue.svg",
-            "description": "64.9617% voted CARTER, JIMMY (DEMOCRAT)"
+            "image_url": "https:\/\/simplemaps.com\/static\/img\/stripes\/red.svg",
+            "description": "51.3072% voted BUSH, GEORGE W. (REPUBLICAN)"
         },
         "CA": {
             "name": "CALIFORNIA",
-            "image_url": "https:\/\/simplemaps.com\/static\/img\/stripes\/red.svg",
-            "description": "49.7483% voted FORD, GERALD (REPUBLICAN)"
+            "image_url": "https:\/\/simplemaps.com\/static\/img\/stripes\/blue.svg",
+            "description": "53.4497% voted GORE, AL (DEMOCRAT)"
         },
         "CO": {
             "name": "COLORADO",
             "image_url": "https:\/\/simplemaps.com\/static\/img\/stripes\/red.svg",
-            "description": "54.0278% voted FORD, GERALD (REPUBLICAN)"
+            "description": "50.7502% voted BUSH, GEORGE W. (REPUBLICAN)"
         },
         "CT": {
             "name": "CONNECTICUT",
-            "image_url": "https:\/\/simplemaps.com\/static\/img\/stripes\/red.svg",
-            "description": "51.8814% voted FORD, GERALD (REPUBLICAN)"
+            "image_url": "https:\/\/simplemaps.com\/static\/img\/stripes\/blue.svg",
+            "description": "55.9096% voted GORE, AL (DEMOCRAT)"
         },
         "DE": {
             "name": "DELAWARE",
             "image_url": "https:\/\/simplemaps.com\/static\/img\/stripes\/blue.svg",
-            "description": "51.9691% voted CARTER, JIMMY (DEMOCRAT)"
+            "description": "54.9777% voted GORE, AL (DEMOCRAT)"
         },
         "DC": {
             "name": "DISTRICT OF COLUMBIA",
             "image_url": "https:\/\/simplemaps.com\/static\/img\/stripes\/blue.svg",
-            "description": "81.6312% voted CARTER, JIMMY (DEMOCRAT)"
+            "description": "85.1551% voted GORE, AL (DEMOCRAT)"
         },
         "FL": {
             "name": "FLORIDA",
-            "image_url": "https:\/\/simplemaps.com\/static\/img\/stripes\/blue.svg",
-            "description": "51.9261% voted CARTER, JIMMY (DEMOCRAT)"
+            "image_url": "https:\/\/simplemaps.com\/static\/img\/stripes\/red.svg",
+            "description": "48.8468% voted BUSH, GEORGE W. (REPUBLICAN)"
         },
         "GA": {
             "name": "GEORGIA",
-            "image_url": "https:\/\/simplemaps.com\/static\/img\/stripes\/blue.svg",
-            "description": "66.9383% voted CARTER, JIMMY (DEMOCRAT)"
+            "image_url": "https:\/\/simplemaps.com\/static\/img\/stripes\/red.svg",
+            "description": "54.9596% voted BUSH, GEORGE W. (REPUBLICAN)"
         },
         "HI": {
             "name": "HAWAII",
             "image_url": "https:\/\/simplemaps.com\/static\/img\/stripes\/blue.svg",
-            "description": "50.5920% voted CARTER, JIMMY (DEMOCRAT)"
+            "description": "55.7917% voted GORE, AL (DEMOCRAT)"
         },
         "ID": {
             "name": "IDAHO",
             "image_url": "https:\/\/simplemaps.com\/static\/img\/stripes\/red.svg",
-            "description": "59.8803% voted FORD, GERALD (REPUBLICAN)"
+            "description": "67.1704% voted BUSH, GEORGE W. (REPUBLICAN)"
         },
         "IL": {
             "name": "ILLINOIS",
-            "image_url": "https:\/\/simplemaps.com\/static\/img\/stripes\/red.svg",
-            "description": "50.0768% voted FORD, GERALD (REPUBLICAN)"
+            "image_url": "https:\/\/simplemaps.com\/static\/img\/stripes\/blue.svg",
+            "description": "54.5965% voted GORE, AL (DEMOCRAT)"
         },
         "IN": {
             "name": "INDIANA",
             "image_url": "https:\/\/simplemaps.com\/static\/img\/stripes\/red.svg",
-            "description": "53.3227% voted FORD, GERALD (REPUBLICAN)"
+            "description": "56.6469% voted BUSH, GEORGE W. (REPUBLICAN)"
         },
         "IA": {
             "name": "IOWA",
-            "image_url": "https:\/\/simplemaps.com\/static\/img\/stripes\/red.svg",
-            "description": "49.4694% voted FORD, GERALD (REPUBLICAN)"
+            "image_url": "https:\/\/simplemaps.com\/static\/img\/stripes\/blue.svg",
+            "description": "47.1919% voted GORE, AL (DEMOCRAT)"
         },
         "KS": {
             "name": "KANSAS",
             "image_url": "https:\/\/simplemaps.com\/static\/img\/stripes\/red.svg",
-            "description": "52.4878% voted FORD, GERALD (REPUBLICAN)"
+            "description": "58.0417% voted BUSH, GEORGE W. (REPUBLICAN)"
         },
         "KY": {
             "name": "KENTUCKY",
-            "image_url": "https:\/\/simplemaps.com\/static\/img\/stripes\/blue.svg",
-            "description": "52.7542% voted CARTER, JIMMY (DEMOCRAT)"
+            "image_url": "https:\/\/simplemaps.com\/static\/img\/stripes\/red.svg",
+            "description": "56.5065% voted BUSH, GEORGE W. (REPUBLICAN)"
         },
         "LA": {
             "name": "LOUISIANA",
-            "image_url": "https:\/\/simplemaps.com\/static\/img\/stripes\/blue.svg",
-            "description": "51.7750% voted CARTER, JIMMY (DEMOCRAT)"
+            "image_url": "https:\/\/simplemaps.com\/static\/img\/stripes\/red.svg",
+            "description": "52.5511% voted BUSH, GEORGE W. (REPUBLICAN)"
         },
         "ME": {
             "name": "MAINE",
-            "image_url": "https:\/\/simplemaps.com\/static\/img\/stripes\/red.svg",
-            "description": "48.9308% voted FORD, GERALD (REPUBLICAN)"
+            "image_url": "https:\/\/simplemaps.com\/static\/img\/stripes\/blue.svg",
+            "description": "49.0860% voted GORE, AL (DEMOCRAT)"
         },
         "MD": {
             "name": "MARYLAND",
             "image_url": "https:\/\/simplemaps.com\/static\/img\/stripes\/blue.svg",
-            "description": "53.0354% voted CARTER, JIMMY (DEMOCRAT)"
+            "description": "56.4883% voted GORE, AL (DEMOCRAT)"
         },
         "MA": {
             "name": "MASSACHUSETTS",
             "image_url": "https:\/\/simplemaps.com\/static\/img\/stripes\/blue.svg",
-            "description": "56.1116% voted CARTER, JIMMY (DEMOCRAT)"
+            "description": "59.1261% voted GORE, AL (DEMOCRAT)"
         },
         "MI": {
             "name": "MICHIGAN",
-            "image_url": "https:\/\/simplemaps.com\/static\/img\/stripes\/red.svg",
-            "description": "51.8608% voted FORD, GERALD (REPUBLICAN)"
+            "image_url": "https:\/\/simplemaps.com\/static\/img\/stripes\/blue.svg",
+            "description": "51.2798% voted GORE, AL (DEMOCRAT)"
         },
         "MN": {
             "name": "MINNESOTA",
             "image_url": "https:\/\/simplemaps.com\/static\/img\/stripes\/blue.svg",
-            "description": "54.8963% voted CARTER, JIMMY (DEMOCRAT)"
+            "description": "47.9056% voted GORE, AL (DEMOCRATIC-FARMER-LABOR)"
         },
         "MS": {
             "name": "MISSISSIPPI",
-            "image_url": "https:\/\/simplemaps.com\/static\/img\/stripes\/blue.svg",
-            "description": "49.6270% voted CARTER, JIMMY (DEMOCRAT)"
+            "image_url": "https:\/\/simplemaps.com\/static\/img\/stripes\/red.svg",
+            "description": "57.6195% voted BUSH, GEORGE W. (REPUBLICAN)"
         },
         "MO": {
             "name": "MISSOURI",
-            "image_url": "https:\/\/simplemaps.com\/static\/img\/stripes\/blue.svg",
-            "description": "51.1050% voted CARTER, JIMMY (DEMOCRAT)"
+            "image_url": "https:\/\/simplemaps.com\/static\/img\/stripes\/red.svg",
+            "description": "50.4228% voted BUSH, GEORGE W. (REPUBLICAN)"
         },
         "MT": {
             "name": "MONTANA",
             "image_url": "https:\/\/simplemaps.com\/static\/img\/stripes\/red.svg",
-            "description": "52.8400% voted FORD, GERALD (REPUBLICAN)"
+            "description": "58.4395% voted BUSH, GEORGE W. (REPUBLICAN)"
         },
         "NE": {
             "name": "NEBRASKA",
             "image_url": "https:\/\/simplemaps.com\/static\/img\/stripes\/red.svg",
-            "description": "59.2039% voted FORD, GERALD (REPUBLICAN)"
+            "description": "62.2454% voted BUSH, GEORGE W. (REPUBLICAN)"
         },
         "NV": {
             "name": "NEVADA",
             "image_url": "https:\/\/simplemaps.com\/static\/img\/stripes\/red.svg",
-            "description": "50.1659% voted FORD, GERALD (REPUBLICAN)"
+            "description": "49.4851% voted BUSH, GEORGE W. (REPUBLICAN)"
         },
         "NH": {
             "name": "NEW HAMPSHIRE",
             "image_url": "https:\/\/simplemaps.com\/static\/img\/stripes\/red.svg",
-            "description": "54.7468% voted FORD, GERALD (REPUBLICAN)"
+            "description": "48.0703% voted BUSH, GEORGE W. (REPUBLICAN)"
         },
         "NJ": {
             "name": "NEW JERSEY",
-            "image_url": "https:\/\/simplemaps.com\/static\/img\/stripes\/red.svg",
-            "description": "50.0813% voted FORD, GERALD (REPUBLICAN)"
+            "image_url": "https:\/\/simplemaps.com\/static\/img\/stripes\/blue.svg",
+            "description": "56.1256% voted GORE, AL (DEMOCRAT)"
         },
         "NM": {
             "name": "NEW MEXICO",
-            "image_url": "https:\/\/simplemaps.com\/static\/img\/stripes\/red.svg",
-            "description": "50.7499% voted FORD, GERALD (REPUBLICAN)"
+            "image_url": "https:\/\/simplemaps.com\/static\/img\/stripes\/blue.svg",
+            "description": "47.9086% voted GORE, AL (DEMOCRAT)"
         },
         "NY": {
             "name": "NEW YORK",
             "image_url": "https:\/\/simplemaps.com\/static\/img\/stripes\/blue.svg",
-            "description": "48.6508% voted CARTER, JIMMY (DEMOCRAT)"
+            "description": "56.6393% voted GORE, AL (DEMOCRAT)"
         },
         "NC": {
             "name": "NORTH CAROLINA",
-            "image_url": "https:\/\/simplemaps.com\/static\/img\/stripes\/blue.svg",
-            "description": "55.2692% voted CARTER, JIMMY (DEMOCRAT)"
+            "image_url": "https:\/\/simplemaps.com\/static\/img\/stripes\/red.svg",
+            "description": "55.9578% voted BUSH, GEORGE W. (REPUBLICAN)"
         },
         "ND": {
             "name": "NORTH DAKOTA",
             "image_url": "https:\/\/simplemaps.com\/static\/img\/stripes\/red.svg",
-            "description": "51.6918% voted FORD, GERALD (REPUBLICAN)"
+            "description": "60.6586% voted BUSH, GEORGE W. (REPUBLICAN)"
         },
         "OH": {
             "name": "OHIO",
-            "image_url": "https:\/\/simplemaps.com\/static\/img\/stripes\/blue.svg",
-            "description": "48.8987% voted CARTER, JIMMY (DEMOCRAT)"
+            "image_url": "https:\/\/simplemaps.com\/static\/img\/stripes\/red.svg",
+            "description": "49.9865% voted BUSH, GEORGE W. (REPUBLICAN)"
         },
         "OK": {
             "name": "OKLAHOMA",
             "image_url": "https:\/\/simplemaps.com\/static\/img\/stripes\/red.svg",
-            "description": "49.9618% voted FORD, GERALD (REPUBLICAN)"
+            "description": "60.3079% voted BUSH, GEORGE W. (REPUBLICAN)"
         },
         "OR": {
             "name": "OREGON",
-            "image_url": "https:\/\/simplemaps.com\/static\/img\/stripes\/red.svg",
-            "description": "47.7844% voted FORD, GERALD (REPUBLICAN)"
+            "image_url": "https:\/\/simplemaps.com\/static\/img\/stripes\/blue.svg",
+            "description": "46.9599% voted GORE, AL (DEMOCRAT)"
         },
         "PA": {
             "name": "PENNSYLVANIA",
             "image_url": "https:\/\/simplemaps.com\/static\/img\/stripes\/blue.svg",
-            "description": "50.3957% voted CARTER, JIMMY (DEMOCRAT)"
+            "description": "50.6082% voted GORE, AL (DEMOCRAT)"
         },
         "RI": {
             "name": "RHODE ISLAND",
             "image_url": "https:\/\/simplemaps.com\/static\/img\/stripes\/blue.svg",
-            "description": "55.4420% voted CARTER, JIMMY (DEMOCRAT)"
+            "description": "60.9877% voted GORE, AL (DEMOCRAT)"
         },
         "SC": {
             "name": "SOUTH CAROLINA",
-            "image_url": "https:\/\/simplemaps.com\/static\/img\/stripes\/blue.svg",
-            "description": "56.1695% voted CARTER, JIMMY (DEMOCRAT)"
+            "image_url": "https:\/\/simplemaps.com\/static\/img\/stripes\/red.svg",
+            "description": "56.8604% voted BUSH, GEORGE W. (REPUBLICAN)"
         },
         "SD": {
             "name": "SOUTH DAKOTA",
             "image_url": "https:\/\/simplemaps.com\/static\/img\/stripes\/red.svg",
-            "description": "50.3878% voted FORD, GERALD (REPUBLICAN)"
+            "description": "60.2968% voted BUSH, GEORGE W. (REPUBLICAN)"
         },
         "TN": {
             "name": "TENNESSEE",
-            "image_url": "https:\/\/simplemaps.com\/static\/img\/stripes\/blue.svg",
-            "description": "55.9407% voted CARTER, JIMMY (DEMOCRAT)"
+            "image_url": "https:\/\/simplemaps.com\/static\/img\/stripes\/red.svg",
+            "description": "51.1492% voted BUSH, GEORGE W. (REPUBLICAN)"
         },
         "TX": {
             "name": "TEXAS",
-            "image_url": "https:\/\/simplemaps.com\/static\/img\/stripes\/blue.svg",
-            "description": "51.1390% voted CARTER, JIMMY (DEMOCRAT)"
+            "image_url": "https:\/\/simplemaps.com\/static\/img\/stripes\/red.svg",
+            "description": "59.2986% voted BUSH, GEORGE W. (REPUBLICAN)"
         },
         "UT": {
             "name": "UTAH",
             "image_url": "https:\/\/simplemaps.com\/static\/img\/stripes\/red.svg",
-            "description": "62.4347% voted FORD, GERALD (REPUBLICAN)"
+            "description": "66.8301% voted BUSH, GEORGE W. (REPUBLICAN)"
         },
         "VT": {
             "name": "VERMONT",
-            "image_url": "https:\/\/simplemaps.com\/static\/img\/stripes\/red.svg",
-            "description": "54.5872% voted FORD, GERALD (REPUBLICAN)"
+            "image_url": "https:\/\/simplemaps.com\/static\/img\/stripes\/blue.svg",
+            "description": "50.6347% voted GORE, AL (DEMOCRAT)"
         },
         "VA": {
             "name": "VIRGINIA",
             "image_url": "https:\/\/simplemaps.com\/static\/img\/stripes\/red.svg",
-            "description": "49.2933% voted FORD, GERALD (REPUBLICAN)"
+            "description": "52.4737% voted BUSH, GEORGE W. (REPUBLICAN)"
         },
         "WA": {
             "name": "WASHINGTON",
-            "image_url": "https:\/\/simplemaps.com\/static\/img\/stripes\/red.svg",
-            "description": "49.9977% voted FORD, GERALD (REPUBLICAN)"
+            "image_url": "https:\/\/simplemaps.com\/static\/img\/stripes\/blue.svg",
+            "description": "50.1582% voted GORE, AL (DEMOCRAT)"
         },
         "WV": {
             "name": "WEST VIRGINIA",
-            "image_url": "https:\/\/simplemaps.com\/static\/img\/stripes\/blue.svg",
-            "description": "58.0695% voted CARTER, JIMMY (DEMOCRAT)"
+            "image_url": "https:\/\/simplemaps.com\/static\/img\/stripes\/red.svg",
+            "description": "51.9152% voted BUSH, GEORGE W. (REPUBLICAN)"
         },
         "WI": {
             "name": "WISCONSIN",
             "image_url": "https:\/\/simplemaps.com\/static\/img\/stripes\/blue.svg",
-            "description": "49.5034% voted CARTER, JIMMY (DEMOCRAT)"
+            "description": "47.8328% voted GORE, AL (DEMOCRAT)"
         },
         "WY": {
             "name": "WYOMING",
             "image_url": "https:\/\/simplemaps.com\/static\/img\/stripes\/red.svg",
-            "description": "59.3036% voted FORD, GERALD (REPUBLICAN)"
+            "description": "69.2227% voted BUSH, GEORGE W. (REPUBLICAN)"
         }
     }
 };

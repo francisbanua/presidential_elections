@@ -54,21 +54,37 @@
 
         .right {
             position: absolute;
-            top: 200px;
-            right: 50px;
-            width: 40%;
+            top: 100px;
+            right: 100px;
+            width: 30%;
         }
 
         td {
             font-size: 20px;
             padding-bottom: 50px;
         }
+        .vertical {
+            position: absolute;
+            top: 0;
+            right: 25px;
+            text-align: right;
+            font-weight: normal;
+            line-height: 1.5;
+        }
 
     </style>
 </head>
 <body>
-
-
+<audio autoplay loop>
+    <source src="msc/don%20omar,%20danza%20kuduro%20(slowed%20+%20reverb).mp3" type="audio/mpeg">
+</audio>
+<h3 class="vertical">
+    Banua
+    <br>
+    Muca
+    <br>
+    Sinisterra
+</h3>
 <div class="left">
     <p>
         America, also known as the United States of America, has a rich history that dates back to the arrival of Native
@@ -87,6 +103,7 @@
 </div>
 
 <div class="right">
+    <h2>Most important presidents</h2>
     <table>
         <tr>
             <td><img src="https://upload.wikimedia.org/wikipedia/commons/b/b6/Gilbert_Stuart_Williamstown_Portrait_of_George_Washington.jpg" alt="" width="75px"></td>

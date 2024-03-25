@@ -69,10 +69,29 @@
             left: 50%;
             transform: translateX(-50%);
         }
+        .vertical {
+            position: absolute;
+            top: 0;
+            right: 25px;
+            text-align: right;
+            font-weight: normal;
+            line-height: 1.5;
+        }
     </style>
 </head>
 <body>
 
+<audio autoplay loop>
+    <source src="msc/Enrique%20Iglesias%20-%20Bailando%20ft.%20Descemer%20Bueno,%20Gente%20De%20Zona%20(slowed%20+%20reverb).mp3" type="audio/mpeg">
+</audio>
+
+<h3 class="vertical">
+    Banua
+    <br>
+    Muca
+    <br>
+    Sinisterra
+</h3>
 
 <div class="left">
     <h2>Democratic Party</h2>

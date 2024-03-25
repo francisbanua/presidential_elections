@@ -9,10 +9,7 @@
     <script src="usmap.js"></script>
 
     <script>
-        // Get the state_specific data from mapdata2.js
         const stateSpecificData = mapdata.state_specific;
-
-        // Merge state_specific data into mapdata2base.js
         Object.assign(simplemaps_usmap_mapdata.state_specific, stateSpecificData);
     </script>
 
@@ -116,11 +113,28 @@
             text-align: left;
             font-size: 20px;
         }
-
+        .vertical {
+            position: absolute;
+            top: 0;
+            right: 25px;
+            text-align: right;
+            font-weight: normal;
+            line-height: 1.5;
+        }
     </style>
 </head>
 <body>
+<audio autoplay loop>
+    <source src="msc/Pitbull%20-%20Fireball%20ft.%20John%20Ryan.mp3" type="audio/mpeg">
+</audio>
 
+<h3 class="vertical">
+    Banua
+    <br>
+    Muca
+    <br>
+    Sinisterra
+</h3>
 
 <div class="left">
     <h2>The Electoral College</h2>

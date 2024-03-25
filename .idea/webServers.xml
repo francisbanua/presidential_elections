@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="7ba47e5a-cdab-4319-92fc-40253c3bb3b3" name="winnie">
+        <fileTransfer rootFolder="/home/zulza/public_html/elections" accessType="SFTP" host="10.4.55.123" port="22" sshConfigId="bff410ec-4c90-4d32-97ba-c2c45ea72932" sshConfig="zulza@10.4.55.123:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

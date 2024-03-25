@@ -38,7 +38,10 @@
             font-size: 20px;
             text-decoration: none;
         }
-
+        a:hover {
+            transition: 0.2s;
+            opacity: 50%;
+        }
 
         p {
             font-size: 25px;

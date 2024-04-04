@@ -1,6 +1,6 @@
 <?php
 require 'vendor/autoload.php';
-require_once 'conf/config.php';
+require_once 'conf/config.local.php';
 
 $template = new League\Plates\Engine('templates', 'tpl');
 

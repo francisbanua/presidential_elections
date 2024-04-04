@@ -8,7 +8,7 @@ class Repository
     public static function elections($id)
     {
         $pdo = Connection::getInstance();
-        $sql = 'SELECT state.po AS Po, state.name AS State, candidate.name AS Candidate, party_detailed AS Party, candidatevotes AS Votes, candidatevotes/totalvotes*100 AS Percentage
+        $sql = 'SELECT state.po AS Po, state.name AS State, candidate.name AS Candidate, party_detailed AS Party, candidatevotes AS Votes, FLOOR(candidatevotes/totalvotes*100) AS Percentage
 FROM vote
     INNER JOIN election ON id_election = election.id
     INNER JOIN state ON id_state = state.id
